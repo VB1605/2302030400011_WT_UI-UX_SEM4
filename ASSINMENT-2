@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>penpal</title>
+    <link rel="stylesheet" href="penpal.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navimg" href="#"><img src="logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="findus.html">Find penpal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="main1">
+        <p class="text-center fs-4 fw-bolder ">~Where People Become Friends~</p>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col fs-5">
+                    <h2>Penpal World Feature</h2>
+                    <ul>
+                        <li>Connect with people all over the world</li>
+                        <li>Your own mailbox</li>
+                        <li>Add friends to your profile</li>
+                        <li>Upload your photo to your profile</li>
+                        <li>Leave comments for others</li>
+                        <li>Powerful search engines</li>
+                        <li>All profile pictures are reviewed</li>
+                        <li>Paid VIP Membership available</li>
+                    </ul>
+                    <h2 class="mt-5">You are in control</h2>
+                    <ul>
+                        <li>Minors can block all adults</li>
+                        <li>Block users or entire countries</li>
+                        <li>Update your profile in real-time</li>
+                        <li>Easily report inappropriate messages</li>
+                        <li>Pause your profile</li>
+                        <li>Cancel anytime, no obligation</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="penpal.png" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">
+                            <h1>Create a Free Account</h1>
+                            <p>PenPal - a place where you can meet over 3,000,000 pen pals from every country on the
+                                planet.</p>
+                            <p>In order to sign up all we ask is your e-mail address, birthday, sex, and country.
+                                That's it. We promise!</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="mx-auto p-2 mt-4" style="width: 200px;">
+                <p class="text-center "><button type="button" class="btn btn-dark">Sign Up</button></p>
+            </div>
+        </div>
+    </section>
+    <section class="main2 mt-1">
+        <div class="container">
+            <div class="row">
+                <div class="col fs-5  mt-4 mb-5">
+                    <h2 class="heading">How it Works</h2>
+                    <h4 class="heading">Penpal is simple and fun!!</h4>
+                    <ol>
+                        <li><strong>Sign Up & Create Your Profile</strong>
+                            <p>Get started by creating a free account. Set up your profile with details about your
+                                interests, hobbies, preferred languages, and the type of penpal you’re looking for.</p>
+                        </li>
+                        <li><strong>Find Your Perfect Penpal</strong>
+                            <p>Use our smart matching system or browse through profiles to find penpals who share your
+                                interests. You can filter by country, age, language, or specific topics you’d like to
+                                discuss.</p>
+                        </li>
+                        <li><strong>Start Connecting</strong>
+                            <p>Once you find a match, send a friendly introduction message. You can chat through our
+                                secure messaging system or choose to exchange emails, handwritten letters, or
+                                postcards—whichever suits your preference!</p>
+                        </li>
+                        <li><strong>Build Meaningful Friendships</strong>
+                            <p>Keep the conversation going and enjoy learning about different cultures, traditions, and
+                                perspectives. Whether you're practicing a new language, sharing stories, or exchanging
+                                letters, your penpal journey is yours to shape.</p>
+                        </li>
+                        <li><strong>Stay Safe & Enjoy</strong>
+                            <p>Your safety is our priority! Our platform allows you to control your privacy settings and
+                                report any inappropriate behavior.</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <figure class="figure mt-5 ms-5">
+                        <img src="pic3.jpeg" class="figure-img img-fluid rounded" alt="...">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main1 mt-1">
+        <div class="container mt-1">
+            <div class="row">
+                <div class="col fs-4  mt-3 mb-5">
+                    <p class="heading fs-2 fw-bolder ">Our mission</p>
+                    <p class="mt-3">We're here to help people rediscover the joy of thoughtful communication and genuine
+                        friendships.
+                    </p>
+                    <p>PenPal provides a safe environment for people to share their interests and stories in a more
+                        meaningful way with members from all over the world.</p>
+                    <p>Our mission is to connect people across the world through meaningful conversations. We believe in
+                        the power of letters to bridge cultures, build friendships, and create a global community where
+                        everyone has a voice.</p>
+                </div>
+                <div class="col">
+                    <figure class="figure mt-5 ms-3">
+                        <img src="pic1.png" class="figure-img img-fluid rounded" alt="...">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main2 mt-1">
+        <p class="text-center fs-2 fw-bolder">Testimonials</p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr>
+                    For a long time I wanted to communicate with people in general in a non-chat format. It was only
+                    when I was on vacation with limited access and resorted to exchanging long emails with a friend
+                    who was similarly inclined that I realized that what I wanted was penpals. 45 years ago I had
+                    them but I had forgotten about the whole things. The social networking apps that are really
+                    fronts for dating apps are a poor substitute for PPW.
+                    <p class="text-end"><strong>Max from Italy</strong></p>
+                    <hr>
+                    This is hands down the best pen pal site I've been to. There's something about the format that
+                    is ideal for fostering a different experience here than on other sites, whether they be dating
+                    sites or pen pal sites or whatever. Maybe it's the short profile text and single profile
+                    photo.It sets up for just a quick intro and encourages people to take a leap toward setting up
+                    their own communication. It must also be the type of users brought here. I don't know what it
+                    is, but thank you and please don't ever transition to become like interpals or some other site,
+                    because this place is unique.
+                    <p class="text-end"><strong>Scott from the USA</strong></p>
+                    <hr>
+                    Just a quick note to say thank you so much for having created this site. If it wasn't for you,
+                    then I would never have met what I am hoping will turn out to be my best friend forever. I will
+                    certainly promote your site to everyone, whether they want to know or not!! If the need ever
+                    arises, I will return with lightening speed. Thank you once again.
+                    <p class="text-end"><strong>Max from France</strong></p>
+                    <hr>
+                    After reading your Bio, I became speechless, just thank you so much for making the world closer..
+                    you just proved to me that a human being can do wonders even if he's alone. a huge big up for you
+                    mate, you just inspired me in a unique way. I just spent one day here, I reaaally loved it, I think
+                    it's even better than Facebook! or any other place! keep it clean, keep it alive. Thank you for
+                    bringing the world more to our arms.
+                    <p class="text-end"><strong>Lisa from UK</strong></p>
+                    <hr>
+                    PenPal makes me feel valued and definitely more free. There’s a lack of ties and complication and
+                    there are chances for more meaningful connections and relationships which is amazing.
+                    <p class="text-end"><strong>jack from Russia</strong></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main3 mt-1">
+        <div class="container ">
+            <div class="row">
+                <div class="col fs-1  mt-5">
+                    <p><strong><mark>International Friendship</mark> by post or internet</strong></p>
+                    <p class="fs-3 mt-5">Global Penpal has been connecting Penpals by post and internet for over 25
+                        years. Start writing a letter or send a message to a new friend today.</p>
+                    <div class="mx-auto p-2 mt-4" style="width: 200px;">
+                        <p class="text-center "><button type="button" class="btn btn-dark">Join Now</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <figure class="figure mt-5 ms-3">
+                        <img src="friendship.png" class="figure-img img-fluid rounded" alt="...">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main1 mt-1 mb-0">
+        <div class="container">
+            <p class="text-center fs-2 fw-bolder">Learn More</p>
+            <p class="heading fs-4 fw-bolder">Penpal World Does the Work for You</p>
+            <p class="text">
+                With PenPal World you can find as many pen pals as you want from the comfort of your own home! Just sign
+                up and start searching for members all over the world. When you receive a message, you'll be notified
+                conveniently at your email address.
+            </p>
+            <p class="heading fs-4 fw-bolder">Cost</p>
+            <p class="text">
+                PenPal World offers a limited FREE account that allows you to contact and reply to up to 3 members
+                within 24 hours. PenPal World also offers a very affordable VIP membership starting at 10 cents per day,
+                which allows you to write to up to 50 members per day.
+            </p>
+            <p class="heading fs-4 fw-bolder">Protecting our member's privacy</p>
+            <p class="text">
+                We do not sell or rent any information you submit to this site.
+                We do not display your email address (as some other penpal sites do). The Penpal World system is set up
+                so that you can communicate with people entirely through our site without ever revealing an email
+                address. We do display your age, gender, and country because other members are very interested in this
+                information and use it to select penpals. However, we do not display your birthday, and other
+                information such as state/province, city, or relationship status is optional.
+                The privacy of our members is our #1 priority. While other similar pen pal websites display a lot of
+                personal information about their members, such as their email addresses, PenPal World does not. In fact,
+                within a member's profile, all we show is that member's age (not birthday), gender, and country. All
+                other information, such as state/province, city, or relationship status, is optional.
+                We also review every new and updated profile picture before it's displayed. This allows us to filter out
+                inappropriate ones.
+            </p>
+            <p class="heading fs-4 fw-bolder">Scams</p>
+            <p class="text">
+                Every social network website deals with the Nigerian scam. At PenPal World we deal with this issue in a
+                very agressive way keeping our service as clean as possible. Members have the opportunity to easily
+                report suspicious accounts with a click of their mouse. Also in the background several features are
+                running to catch them before they can do any damage.
+                We also block over 100,000 fake domain email addresses (such as meantodeal.com) and temporary/disposable
+                email addresses (such as tempmailo.org) that are commonly used by scammers.
+                We also do not allow new members to post comments or write to other members for the first 24 hours.This
+                way they can't contact anyone before their account is banned.
+            </p>
+
+            <p class="heading fs-4 fw-bolder">Cancellation</p>
+            <p class="text">
+                You can easily cancel your membership at any time, online, 24 hours a day. There are no cancellation
+                fees.
+            </p>
+            <p class="heading fs-4 fw-bolder">About PenPal </p>
+            <p class="text">
+                PenPal World was born in February 1998 from one person's idea on a sleepless night. Since then, it has
+                served over 3 million members from every single country on the planet. In 2015 alone, PenPal World
+                served a total of 101,413,983 pages.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer  ">
+            <div class="container text-center mb-2">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col ">
+                        Connect With Us
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col mt-4">
+                        <a href="https://instagram.com" class="connect"><img src="instagram.png" alt=""></a>
+                        <a href="https://facebook.com" class="connect"><img src="facebook.png" alt="" class="in"></a>
+                        <a href="https://twitter.com" class="connect"><img src="twitter.png" alt="" class="in"></a>
+                        <a href="https://linkedin.com" class="connect"><img src="linkedin.png" alt=""></a>
+                        <a href="https://youtube.com" class="connect"><img src="youtube.png" alt=""></a>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="row mt-5 ms-5 ">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h2>About Us</h2>
+                        </li>
+                        <li>About Us</li>
+                        <li>Our mission</li>
+                        <li>How it works</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h2>Connect & Explore</h2>
+                        </li>
+                        <li>Find a Penpal</li>
+                        <li>Language exchange</li>
+                        <li>Cultural exchange</li>
+                        <li>Success Stories</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h2> Support & Safety</h2>
+                        </li>
+                        <li>FAQs</li>
+                        <li>Safety tips</li>
+                        <li>Prrivacy policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h2>Get Involved</h2>
+                        </li>
+                        <li>Become an Ambassador</li>
+                        <li>Write for Us</li>
+                        <li>Feedback & Suggestions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
